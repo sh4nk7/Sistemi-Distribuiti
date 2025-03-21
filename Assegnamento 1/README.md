@@ -34,7 +34,7 @@ javac -d out src/**/*.java
 
 ### 🚀 Avvio del Server
 ```sh
-java -cp out server.Server
+java -cp out server.Server 3 // Quando avvii il server, devi specificare il numero totale di nodi come argomento.
 ```
 
 ### 📡 Avvio dei Nodi
